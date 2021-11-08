@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="css/Formulario.css">
+</head>
+<header>
+    <div class="center">
+        <div class="logo"><img src="img/logo.png"/></div>
+        <div class="menu">
+            <a href="#">Home</a>
+            <a href="#">Sobre Nós</a>
+            <a href="#">LifeCare</a>
+        </div>
+    </div>
+</header>
+<body>
+    <div class="form">
+        <form action="">
+            <h1>Preencha o seu Formulário</h1>
+            <h2>Insira informações verdadeira e<br>comprovadas por um profissional</h2>
+            <h3>Tenha certeza de que todos os dados estão corretos antes de enviar</h3>
+            <div class="nome">
+                <label for="nome">
+                    <span>Nome</span>
+                    <input type="text" id="nome" name="nome">
+                </label>
+            </div>
+            <div class="email">
+                <label for="emailpac">
+                    <span>E-mail do Paciente</span>
+                    <input type="text">
+                </label>
+                <label for="emailresp">
+                    <span>E-mail do Responsável</span> 
+                    <input type="text"><br><br>
+                </label>
+            </div>
+            <div class="cel">
+                <label for="celpac">
+                    <span>Celular do Paciente</span>
+                    <input type="tel" placeholder="(xx)xxxxx-xxxx">
+                </label>
+                <label for="celresp">
+                    <span>Celular do Responsável</span> 
+                    <input type="tel" placeholder="(xx)xxxxx-xxxx"><br><br>
+                </label>
+            </div>
+            <div class="info">
+                <label for="CPF">
+                    <span>CPF do Paciente</span>
+                    <input type="text" placeholder="xxx.xxx.xxx-xx">
+                </label>
+                <label for="rg">
+                    <span>RG do Paciente</span> 
+                    <input type="text" placeholder="xxx.xxx.xxx-xx"><br><br>
+                </label>
+            </div>
+            <div class="doenca">
+                <label for="doenca">
+                    <span>Doenças</span>
+                    <textarea name="doenca" id="doenca" cols="30" rows="10"></textarea>
+                </label>
+                <label for="alergias">
+                    <span>Alergias</span> 
+                    <textarea name="alergias" id="alergias" cols="90" rows="10"></textarea>
+                </label>
+                <label for="medicamentos">
+                    <span>Medicamentos</span> 
+                    <textarea name="medicamentos" id="medicamentos" cols="90" rows="10"></textarea>
+                </label>
+            </div>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+</body>
+</html>

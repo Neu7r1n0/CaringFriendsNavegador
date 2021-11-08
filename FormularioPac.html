@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário do Paciente</title>
+    <link rel="stylesheet" href="css/FormularioPac.css">
+</head>
+</html>
+    <body>
+        <header>
+            <div class="center">
+                <div class="logo"><img src="img/logo.png"/></div>
+                <div class="menu">
+                    <a href="#">Home</a>
+                    <a href="#">Sobre Nós</a>
+                    <a href="#">LifeCare</a>
+                    <input type="button" value="Paciente">
+                    <input type="button" value="Cuidador">
+                </div>
+            </div>
+        </header>
+        <main>
+            <h1>Preencha seu Formulário</h1>
+            <h2>Coloque informações verdadeiras e <br> comprovadas pelo médico</h2>
+            <form action="">
+                <label for="nome">
+                    <span>Nome</span>
+                    <input type="text" id="nome" name="nome">
+                </label>
+                <div class="geni">
+                <label for="genero">
+                    <span>Gênero</span>
+                    <label for="feminino">Feminino</label>
+                    <input type="radio" id="feminino" name="genero" value="feminino" required>
+                    <label for="masculino">Masculino</label>
+                    <input type="radio" id="masculino" name="genero" value="masculino" required>
+                    <label for="outro">Outro</label>
+                    <input type="radio" id="outro" name="genero" value="outro" required>
+                </label>
+                </div>
+                <label for="dtnasc">
+                    <span>Data de Nascimento</span>
+                    <input type="date" id="dtnasc" name="dtnasc"> 
+                </label>
+                <label for="emailpac">
+                    <span>E-mail do Paciente</span>
+                    <input type="text" id="emailpac" name="emailpac">
+                </label>
+                <label for="emailresp">
+                    <span>E-mail do Responsável</span>
+                    <input type="text" id="emailresp" name="emailresp">
+                </label>
+                <label for="celpac">
+                    <span>Celular do Paciente</span>
+                    <input type="tel" id="celpac" name="celpac">
+                </label>
+                <label for="celresp">
+                    <span>Celular do Responsável</span>
+                    <input type="tel" id="celresp" name="celresp">
+                </label>
+                <label for="cidade">
+                    <span>Cidade</span>
+                    <input type="text" id="cidade" name="cidade">
+                </label>
+                <label for="estado">
+                    <span>Estado</span>
+                    <input type="text" id="estado" name="estado">
+                </label>
+                <label for="endereco">
+                    <span>Endereço</span>
+                    <input type="text" id="endereco" name="endereco">
+                </label>
+                <label for="complemento">
+                    <span>Complemento</span>
+                    <input type="text" id="complemento" name="complemento">
+                </label>
+                <label for="medicamento">
+                    <span>Medicamentos</span>
+                    <input type="text" id="medicamento" name="medicamento">
+                </label>
+                <label for="alergias">
+                    <span>Alergias</span>
+                    <input type="text" id="alergias" name="alergias">
+                </label>
+                <label for="doencas">
+                    <span>Doenças</span>
+                    <input type="text" id="doencas" name="doencas">
+                </label>
+                <label for="obs">
+                    <span>Observações</span>
+                    <input type="text" id="obs" name="obs">
+                </label>
+                <input type="submit" value="Enviar">
+            </form>
+        </main>
+        <section class="extras">
+            <img src="img/formpac.png" width="505px" height="600px" alt="formpaci">
+        </section>
+    </body>
+    </html>

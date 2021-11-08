@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+html,body{
+    height: 2000px;
+    overflow-x: hidden;
+}
+header{
+    height: 200px;
+    padding: 20px 0;
+}
+.logo{
+    width: 40%;
+}
+.menu{
+    padding-top: 50px;
+    width: 60%;
+    text-align: right;
+}
+.menu a{
+    color: #311fa3;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-right: 15px;
+    font-size: 120%;
+}
+h1{
+    color: #3958b2;
+    font-size: 3rem;
+    position: absolute;
+    top: 200px;
+    left: 150px;
+    display: flex;
+    font-family: "Poppins", sans-serif;
+}
+h2{
+    color: #5473cf;
+    font-size: 30px;
+    position: absolute;
+    top: 270px;
+    left: 150px;
+    display: flex;
+    font-family: "Poppins", sans-serif;
+}
+h3{
+    color: #dc3b51;
+    font-size: 15px;
+    position: absolute;
+    top: 1507px;
+    left: 150px;
+    display: flex;
+    font-family: "Poppins", sans-serif;
+}
+form{
+    margin-left: 150px;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    color: #d63fd4;
+    margin-top: 200px;
+}
+.nome input{
+    width: 700px;
+    margin-bottom: 30px;
+}
+.nome label{
+    display: flex;
+    flex-direction: column;
+}
+.email label{
+    margin-left: 20px;
+}
+.email label:first-child{
+    margin-left: 0;
+}
+.cel label{
+    margin-left: 20px;
+}
+.cel label:first-child{
+    margin-left: 0;
+}
+.info label{
+    margin-left: 20px;
+}
+.info label:first-child{
+    margin-left: 0;
+}
+form label span{
+    margin-top: 2rem;
+}
+input{
+    background: white;
+    width: 365px;
+    height: 50px;
+    padding: 0 0.5rem;
+    margin-top: 1rem;
+    outline: none;
+    color: #6985a8;
+    font-size: 18px;
+    border: 1px solid #a610de;
+    border-radius: 8px;
+}
+.doenca label{
+    display: flex;
+    flex-direction: column;
+}
+.doenca textarea{
+    width: 1000px;
+}
+form input[type="submit"]{
+    margin-top: 2rem;
+    padding: 0.4rem;
+    background: linear-gradient(to left, #3340e8, #82168f);
+    cursor: pointer;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    border-radius: 4px;
+    height: 40px;
+    border: none;
+    transition: all 0.3s ease;
+    margin-left: 637px;
+}
+form input[type="submit"]:hover{
+    letter-spacing: 0.5px;
+    background: linear-gradient(to right, #3340e8, #82168f);
+}

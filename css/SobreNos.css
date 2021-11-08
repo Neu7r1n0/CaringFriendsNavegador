@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+html,body{
+    height: 800px;
+    overflow-x: hidden;
+}
+header{
+    height: 200px;
+    padding: 20px 0;
+}
+.logo{
+    width: 40%;
+}
+.menu{
+    padding-top: 50px;
+    width: 60%;
+    text-align: right;
+}
+.menu a{
+    color: #311fa3;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-right: 15px;
+    font-size: 120%;
+}
+.menu input[type="button"]{
+    cursor: pointer;
+    background: #352c7a;
+    color: white;
+    width: 80px;
+    height: 25px;
+    border: none;
+    border-radius: 32px;
+    transition: all .3s ease-in-out;
+    margin-left: 10px;
+}
+.menu input[type="button"]{
+    display: inline-block;
+}
+.menu input[type="button"]:hover{
+    background: #4d40ad;
+}
+main{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+}
+main h1{
+    color: #3958b2;
+    font-size: 3rem;
+    position: absolute;
+    top: 200px;
+    margin-left: 380px;
+    display: flex;
+    margin-bottom: 500px;
+    font-family: "Poppins", sans-serif;
+}
+main p{
+    color: #cf47cf;
+    font-size: 25px;
+    position: absolute;
+    top: 300px;
+    margin-left: 270px;
+    text-align: center;
+    display: flex;
+    margin-bottom: 500px;
+    font-family: "Poppins", sans-serif;
+}
+section.extras{
+    position: absolute;
+    display: flex;
+    bottom: -180px;
+    left: 427px;
+    width: 50vw;
+    align-items: flex-end;
+    align-content: flex-end;
+}
